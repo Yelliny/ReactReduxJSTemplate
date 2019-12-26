@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { getTODOs } from '../../../state/todo/actions/actions';
 
+const classes = require('./homeScreen.scss');
+
 class TODOList extends React.Component {
 
     constructor(props) {
@@ -9,8 +11,9 @@ class TODOList extends React.Component {
     }
 
     render() {
+        console.log(classes);
         return (
-            <div>
+            <div className={"container"}>
                 <button onClick={() => this.props.getMoreTodos()}>
                     Get More TODOS
                 </button>
