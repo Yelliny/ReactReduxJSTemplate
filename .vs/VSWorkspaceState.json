@@ -4,8 +4,13 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\app",
-    "\\src\\components\\pages"
+    "\\src\\components\\common",
+    "\\src\\components\\pages",
+    "\\src\\components\\pages\\HomeScreen",
+    "\\src\\state",
+    "\\src\\state\\todo",
+    "\\src\\state\\todo\\actions"
   ],
-  "SelectedNode": "\\src\\index.js",
+  "SelectedNode": "\\src\\state\\todo\\actions\\actions.js",
   "PreviewInSolutionExplorer": false
 }
